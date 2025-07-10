@@ -1,4 +1,4 @@
-/* Reset styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,6 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* Body styles */
 body {
   height: 100vh;
   display: flex;
@@ -15,7 +14,6 @@ body {
   background-color: #f2f2f2;
 }
 
-/* Login Form container */
 form#loginForm {
   background-color: #ffffff;
   padding: 30px 40px;
@@ -24,7 +22,7 @@ form#loginForm {
   min-width: 320px;
 }
 
-/* Labels */
+
 form label {
   display: block;
   margin-bottom: 3px;
@@ -32,7 +30,7 @@ form label {
   color: #333;
 }
 
-/* Input fields */
+
 form input {
   width: 100%;
   padding: 10px;
@@ -49,7 +47,6 @@ form input:focus {
   box-shadow: 0 0 5px #4CAF50;
 }
 
-/* Submit button */
 button#submit {
   width: 100%;
   padding: 12px;
@@ -67,15 +64,13 @@ button#submit:hover {
   background-color: #45a049;
 }
 #message {
-  margin-bottom: 20px;  /* ↓ spacing below the message */
-  padding: 10px;
+  margin-bottom: 20px;  
   font-size: 16px;
   font-weight: 500;
   border-radius: 8px;
   display: none;
 }
 
-/* Optional: green for success, red for error */
 #message.success {
   background-color: #d4edda;
   color: #155724;

@@ -17,7 +17,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
       throw new Error("password must be at leart 6 charcters");
     }
 
-    localStorage.setItem("savedUsername", userName)
+    localStorage.setItem("savedUsername", userName);
 
     msg.style.color = "green";
     msg.textContent = `wellcome ${userName}! Login Succesfull`;
@@ -27,6 +27,4 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     msg.textContent = error.message;
     msg.style.display = "block";
   }
-
-
 });
